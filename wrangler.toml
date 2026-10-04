@@ -8,7 +8,7 @@ compatibility_date = "2026-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "matchmaker-db"
-database_id = "PASTE_YOUR_D1_DATABASE_ID_HERE"
+database_id = "c1a0b605-55d6-46c9-a9d4-7cec8a9ce4be"
 
 [vars]
 # Non-secret vars can live here. Secrets (BOT_TOKEN, WEBHOOK_SECRET) are set
