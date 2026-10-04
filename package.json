@@ -1,0 +1,17 @@
+{
+  "name": "matchmaker-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "db:init": "wrangler d1 execute matchmaker-db --file=./migrations/0001_init.sql"
+  },
+  "dependencies": {
+    "grammy": "^1.30.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
