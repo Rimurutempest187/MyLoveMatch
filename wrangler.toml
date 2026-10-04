@@ -1,0 +1,15 @@
+name = "matchmaker-bot"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+# D1 database — create once with:
+#   npx wrangler d1 create matchmaker-db
+# then paste the returned database_id below.
+[[d1_databases]]
+binding = "DB"
+database_name = "matchmaker-db"
+database_id = "PASTE_YOUR_D1_DATABASE_ID_HERE"
+
+[vars]
+# Non-secret vars can live here. Secrets (BOT_TOKEN, WEBHOOK_SECRET) are set
+# with `npx wrangler secret put ...` or via the GitHub Action.
